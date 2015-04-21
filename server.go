@@ -61,7 +61,7 @@ func main() {
 	defer glog.Flush()
 	glog.Info("Initializing shellscript executor server")
 
-	port := flag.String("P", "6303", "port")
+	port := flag.String("P", "6304", "port")
 	flag.Parse()
 
 	flag.Lookup("logtostderr").Value.Set("true")
